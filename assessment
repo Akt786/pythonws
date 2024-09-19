@@ -1,0 +1,23 @@
+# To find the current age
+
+currentYear = int(input("Enter the curent year"))
+bornYear = int(input("Enter the born year"))
+ageInYear = currentYear - bornYear
+print(ageInYear)
+
+# Currency converter
+print("Convert rupees into dollar")
+rupeesAmount = int(input("Enter the amount in Rs."))
+rsIntoDollar = (rupeesAmount/84)
+print(rsIntoDollar)
+
+print("Convert dollar into rupees")
+dollarsAmount = int(input("Enter the amount in dollars"))
+dollarIntors = (dollarsAmount*84)
+print(dollarsAmount, "convert into rs", dollarIntors);
+
+# BMI calculator in python
+height = float(input("Enter the height in cm"))
+weight = float(input("Enter the weight in kg"))
+BMI = weight/(height/100)*2
+print(f"You BMI is {BMI}" )
